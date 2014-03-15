@@ -58,6 +58,28 @@
   background: #FFFA75;
 }
 
+.CodeMirror-linewidget{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  max-width: 50%;
+  z-index: 10;
+}
+
+.line-messages {
+  float: right;
+  text-align: right;
+  background: #FFF8B1 !important;
+  font-family: "Helvetica", Georgia, Times New Roman, serif;
+  color: rgb(148, 148, 148);
+  font-size: 12px;
+  line-height: 1.3em;
+  padding-right: 0.3em;
+  padding-left: 0.5em;
+  padding-top: 0.3em;
+  min-height: 23px;
+}
+
 html, body, .row, .columns, .editor, .result, .plot {
   height: 100%;
 }
